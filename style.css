@@ -13,3 +13,9 @@ header{
 footer{
     border-top: 1px solid grey;
 }
+#nome-do-usuario{
+    font-weight: bold;
+}
+.texto-inglês{
+    font-style: italic;
+}
