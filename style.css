@@ -7,3 +7,6 @@ body{
     font-family: Roboto;
     text-align: center;
     }
+    header{
+        border-bottom: 1px solid grey;
+    }
