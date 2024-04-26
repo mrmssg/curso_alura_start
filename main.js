@@ -5,4 +5,9 @@ while (nomeUsuario =="") {
     nomeUsuario = prompt("Qual é o seu nome?")
 }
 
-elemento.textContent = nomeUsuario;
+
+if(nomeUsuario==null){
+    elemento.textContent="Seja muito bem-vindo!"
+} else{
+    elemento.textContent = nomeUsuario;
+}
